@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "bd28975b-5dfb-4237-af10-f58196cc2b4c",
+		"name": "assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22858614"
+	},
+	"item": [
+		{
+			"name": "transaction",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/assignment/transaction/4/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"assignment",
+						"transaction",
+						"4",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transactionSummaryByProducts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/assignment/transactionSummaryByProducts/5/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"assignment",
+						"transactionSummaryByProducts",
+						"5",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transactionSummaryByProducts Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/assignment/transactionSummaryByManufacturingCity/2/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"assignment",
+						"transactionSummaryByManufacturingCity",
+						"2",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
